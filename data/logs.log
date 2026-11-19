@@ -1,0 +1,288 @@
+2026-11-16 09:16:13 | alice | srv-bkp-05 | 10.0.0.10 | whoami
+2026-11-16 09:47:11 | dave | srv-bkp-03 | 10.0.3.13 | tail -n 50 /var/log/messages
+2026-11-16 09:55:07 | heena | srv-web-04 | 10.0.7.17 | kill 4521
+2026-11-16 10:14:43 | erin | srv-bkp-04 | 10.0.4.14 | grep error /var/log/app.log
+2026-11-16 10:42:27 | dave | srv-web-05 | 10.0.3.13 | tail -n 50 /var/log/messages
+2026-11-16 10:53:57 | heena | srv-db-01 | 10.0.7.17 | whoami
+2026-11-16 11:02:02 | grace | srv-db-04 | 10.0.6.16 | systemctl status nginx
+2026-11-16 11:10:48 | bob | srv-db-03 | 10.0.1.11 | mkdir /tmp/report
+2026-11-16 11:16:12 | dave | srv-db-03 | 10.0.3.13 | kill 4521
+2026-11-16 11:31:59 | heena | srv-app-04 | 10.0.7.17 | whoami
+2026-11-16 11:54:04 | dave | srv-web-05 | 10.0.3.13 | cp /tmp/a.txt /tmp/b.txt
+2026-11-16 11:54:38 | carol | srv-db-02 | 10.0.2.12 | systemctl status nginx
+2026-11-16 11:55:09 | frank | srv-db-03 | 10.0.5.15 | tail -n 50 /var/log/messages
+2026-11-16 12:07:35 | erin | srv-bkp-05 | 10.0.4.14 | grep error /var/log/app.log
+2026-11-16 12:25:38 | erin | srv-app-05 | 10.0.4.14 | kill -9 8832
+2026-11-16 12:49:41 | carol | srv-bkp-04 | 10.0.2.12 | tail -n 50 /var/log/messages
+2026-11-16 13:11:37 | alice | srv-db-02 | 10.0.0.10 | df -h
+2026-11-16 13:15:14 | bob | srv-bkp-03 | 10.0.1.11 | rm -rf /tmp/cache
+2026-11-16 13:15:19 | grace | srv-web-04 | 10.0.6.16 | kill -9 8832
+2026-11-16 13:20:47 | carol | srv-db-05 | 10.0.2.12 | cat /etc/hosts
+2026-11-16 13:55:30 | carol | srv-web-03 | 10.0.2.12 | rm -rf /tmp/cache
+2026-11-16 14:04:32 | bob | srv-app-02 | 10.0.1.11 | rm /var/log/app.log.1
+2026-11-16 14:06:35 | frank | srv-app-04 | 10.0.5.15 | df -h
+2026-11-16 14:15:08 | alice | srv-db-03 | 10.0.0.10 | cat /etc/hosts
+2026-11-16 14:16:20 | heena | srv-bkp-02 | 10.0.7.17 | mkdir /opt/newdir
+2026-11-16 14:34:57 | frank | srv-db-02 | 10.0.5.15 | top -b -n1
+2026-11-16 14:53:18 | alice | srv-bkp-05 | 10.0.0.10 | rm -rf /tmp/cache
+2026-11-16 15:01:20 | erin | srv-web-02 | 10.0.4.14 | rm /var/log/app.log.1
+2026-11-16 15:16:59 | grace | srv-app-05 | 10.0.6.16 | systemctl status nginx
+2026-11-16 15:23:16 | heena | srv-db-03 | 10.0.7.17 | top -b -n1
+2026-11-16 15:55:47 | frank | srv-web-05 | 10.0.5.15 | rm /tmp/old.log
+2026-11-16 16:50:16 | carol | srv-web-03 | 10.0.2.12 | cp /tmp/a.txt /tmp/b.txt
+2026-11-16 16:54:20 | frank | srv-web-02 | 10.0.5.15 | kill -9 8832
+2026-11-16 17:18:44 | alice | srv-bkp-01 | 10.0.0.10 | mkdir /tmp/report
+ERROR: connection reset by peer
+2026-11-16 17:48:44 | frank | srv-bkp-01 | 10.0.5.15 | kill -9 8832
+2026-11-16 17:58:29 | heena | srv-web-04 | 10.0.7.17 | kill 4521
+2026-11-16 18:40:43 | heena | srv-bkp-04 | 10.0.7.17 | kill 4521
+2026-11-16 18:47:34 | dave | srv-db-02 | 10.0.3.13 | cp /etc/passwd /tmp/passwd.bak
+2026-11-17 09:16:24 | heena | srv-web-01 | 10.0.7.17 | systemctl status nginx
+2026-11-17 09:22:50 | alice | srv-web-01 | 10.0.0.10 | grep error /var/log/app.log
+2026-11-17 09:26:28 | bob | srv-app-05 | 10.0.1.11 | systemctl status nginx
+2026-11-17 09:50:12 | erin | srv-app-05 | 10.0.4.14 | top -b -n1
+2026-11-17 10:22:54 | heena | srv-app-04 | 10.0.7.17 | cd /opt/app
+2026-11-17 10:24:55 | erin | srv-app-03 | 10.0.4.14 | rm /var/log/app.log.1
+2026-11-17 10:33:23 | grace | srv-web-03 | 10.0.6.16 | rm /tmp/old.log
+
+2026-11-17 10:39:55 | carol | srv-app-03 | 10.0.2.12 | mkdir /tmp/report
+2026-11-17 10:49:37 | frank | srv-db-05 | 10.0.5.15 | top -b -n1
+2026-11-17 11:04:18 | dave | srv-bkp-02 | 10.0.3.13 | cd /opt/app
+2026-11-17 11:30:42 | carol | srv-web-05 | 10.0.2.12 | kill -9 8832
+2026-11-17 11:53:44 | carol | srv-web-05 | 10.0.2.12 | pwd
+2026-11-17 12:09:01 | erin | srv-bkp-05 | 10.0.4.14 | rm /var/log/app.log.1
+2026-11-17 12:47:35 | erin | srv-bkp-04 | 10.0.4.14 | cp /tmp/a.txt /tmp/b.txt
+2026-11-17 12:51:38 | grace | srv-db-02 | 10.0.6.16 | mv /opt/app/conf.bak /tmp/
+2026-11-17 13:03:08 | alice | srv-db-04 | 10.0.0.10 | whoami
+2026-11-17 13:45:18 | alice | srv-db-03 | 10.0.0.10 | systemctl status nginx
+2026-11-17 14:11:19 | erin | srv-app-04 | 10.0.4.14 | kill 4521
+2026-11-17 14:48:10 | dave | srv-db-01 | 10.0.3.13 | whoami
+2026-11-17 15:02:20 | grace | srv-web-03 | 10.0.6.16 | cp /tmp/a.txt /tmp/b.txt
+2026-11-17 15:44:15 | erin | srv-web-02 | 10.0.4.14 | grep error /var/log/app.log
+2026-11-17 16:35:10 | carol | srv-web-04 | 10.0.2.12 | grep error /var/log/app.log
+2026-11-17 16:56:22 | bob | srv-db-02 | 10.0.1.11 | tail -n 50 /var/log/messages
+2026-11-17 17:08:24 | bob | srv-bkp-03 | 10.0.1.11 | mkdir /tmp/report
+2026-11-17 17:28:08 | dave | srv-web-05 | 10.0.3.13 | df -h
+2026-11-17 17:29:03 | dave | srv-web-05 | 10.0.3.13 | cd /opt/app
+2026-11-17 18:05:05 | alice | srv-bkp-03 | 10.0.0.10 | cd /opt/app
+2026-11-17 18:45:05 | grace | srv-web-01 | 10.0.6.16 | tail -n 50 /var/log/messages
+2026-11-18 03:12:41 | bob | srv-db-02 | 10.0.1.11 | rm -rf /var/lib/data/backup
+2026-11-18 09:05:40 | heena | srv-db-02 | 10.0.7.17 | df -h
+2026-11-18 09:36:55 | grace | srv-db-02 | 10.0.6.16 | cp /tmp/a.txt /tmp/b.txt
+2026-11-18 09:44:23 | grace | srv-app-03 | 10.0.6.16 | rm /var/log/app.log.1
+2026-11-18 09:57:22 | erin | srv-db-04 | 10.0.4.14 | kill -9 8832
+2026-11-18 10:37:01 | carol | srv-web-03 | 10.0.2.12 | grep error /var/log/app.log
+2026-11-18 10:37:42 | carol | srv-app-05 | 10.0.2.12 | cp /etc/passwd /tmp/passwd.bak
+2026-11-18 10:53:45 | alice | srv-db-05 | 10.0.0.10 | pwd
+2026-11-18 10:56:06 | carol | srv-app-04 | 10.0.2.12 | pwd
+2026-11-18 10:56:15 | carol | srv-web-05 | 10.0.2.12 | pwd
+2026-11-18 11:08:34 | alice | srv-db-04 | 10.0.0.10 | pwd
+2026-11-18 11:13:48 | frank | srv-web-03 | 10.0.5.15 | cd /opt/app
+2026-11-18 11:23:19 | heena | srv-bkp-05 | 10.0.7.17 | grep error /var/log/app.log
+2026-11-19 13:20:11 | grace | srv-bkp-01 | 10.0.6.16 |
+2026-11-18 11:37:27 | heena | srv-db-03 | 10.0.7.17 | systemctl status nginx
+2026-11-18 11:40:16 | alice | srv-bkp-03 | 10.0.0.10 | rm /var/log/app.log.1
+2026-11-18 12:07:54 | grace | srv-app-02 | 10.0.6.16 | cd /opt/app
+2026-11-18 12:42:17 | frank | srv-db-03 | 10.0.5.15 | mkdir /tmp/report
+2026-11-18 12:42:45 | frank | srv-web-03 | 10.0.5.15 | df -h
+2026-11-18 13:11:13 | alice | srv-app-02 | 10.0.0.10 | systemctl status nginx
+2026-11-18 13:45:28 | bob | srv-bkp-01 | 10.0.1.11 | mv /opt/app/conf.bak /tmp/
+2026-11-18 13:56:38 | erin | srv-bkp-03 | 10.0.4.14 | df -h
+   
+2026-11-18 14:38:16 | bob | srv-web-05 | 10.0.1.11 | cp /tmp/a.txt /tmp/b.txt
+2026-11-18 14:57:34 | erin | srv-app-03 | 10.0.4.14 | kill 4521
+2026-11-18 15:04:42 | dave | srv-web-01 | 10.0.3.13 | grep error /var/log/app.log
+2026-11-18 15:07:18 | bob | srv-bkp-01 | 10.0.1.11 | grep error /var/log/app.log
+2026-11-18 15:09:15 | frank | srv-app-01 | 10.0.5.15 | grep error /var/log/app.log
+2026-11-18 15:21:20 | heena | srv-web-01 | 10.0.7.17 | pwd
+2026-11-18 15:26:49 | frank | srv-db-02 | 10.0.5.15 | grep error /var/log/app.log
+2026-11-18 16:15:48 | bob | srv-web-03 | 10.0.1.11 | grep error /var/log/app.log
+2026-11-18 16:38:45 | erin | srv-web-05 | 10.0.4.14 | cp /tmp/a.txt /tmp/b.txt
+2026-11-18 16:44:53 | alice | srv-web-05 | 10.0.0.10 | rm /var/log/app.log.1
+2026-11-18 17:00:35 | carol | srv-db-04 | 10.0.2.12 | cat /etc/hosts
+2026-11-18 17:07:29 | alice | srv-app-04 | 10.0.0.10 | cp /tmp/a.txt /tmp/b.txt
+2026-11-18 17:17:51 | heena | srv-db-03 | 10.0.7.17 | mkdir /opt/newdir
+2026-11-18 17:17:52 | grace | srv-bkp-04 | 10.0.6.16 | mv /opt/app/conf.bak /tmp/
+2026-11-18 17:21:52 | alice | srv-web-05 | 10.0.0.10 | mkdir /tmp/report
+2026-11-18 17:27:42 | alice | srv-web-01 | 10.0.0.10 | whoami
+2026-11-18 17:42:40 | bob | srv-app-03 | 10.0.1.11 | cd /opt/app
+2026-11-18 18:19:40 | heena | srv-app-04 | 10.0.7.17 | cp /tmp/a.txt /tmp/b.txt
+2026-11-18 18:30:32 | dave | srv-web-05 | 10.0.3.13 | rm /tmp/old.log
+2026-11-18 18:39:03 | grace | srv-db-04 | 10.0.6.16 | cp /tmp/a.txt /tmp/b.txt
+2026-11-18 18:40:37 | carol | srv-web-03 | 10.0.2.12 | top -b -n1
+2026-11-18 18:42:51 | dave | srv-db-04 | 10.0.3.13 | tail -n 50 /var/log/messages
+2026-11-19 02:47:05 | carol | srv-app-03 | 10.0.2.12 | kill -9 1
+2026-11-19 09:03:30 | erin | srv-db-04 | 10.0.4.14 | tail -n 50 /var/log/messages
+2026-11-19 09:07:59 | frank | srv-app-03 | 10.0.5.15 | df -h
+2026-11-19 09:13:53 | heena | srv-db-01 | 10.0.7.17 | grep error /var/log/app.log
+2026-11-19 09:22:19 | grace | srv-bkp-03 | 10.0.6.16 | tail -n 50 /var/log/messages
+2026-11-19 09:46:55 | frank | srv-web-04 | 10.0.5.15 | grep error /var/log/app.log
+2026-11-19 09:47:34 | bob | srv-app-03 | 10.0.1.11 | cp /etc/passwd /tmp/passwd.bak
+2026-11-19 10:15:27 | bob | srv-db-03 | 10.0.1.11 | whoami
+2026-11-19 10:35:18 | bob | srv-web-02 | 10.0.1.11 | grep error /var/log/app.log
+2026-11-19 10:38:02 | heena | srv-web-01 | 10.0.7.17 | cp /tmp/a.txt /tmp/b.txt
+2026-11-19 10:48:40 | bob | srv-web-05 | 10.0.1.11 | cd /opt/app
+2026-11-19 11:29:00 | erin | srv-app-04 | 10.0.4.14 | cp /tmp/a.txt /tmp/b.txt
+2026-11-19 11:46:33 | carol | srv-bkp-05 | 10.0.2.12 | df -h
+2026-11-19 12:09:41 | heena | srv-web-04 | 10.0.7.17 | cd /opt/app
+2026-11-19 12:17:27 | dave | srv-web-01 | 10.0.3.13 | tail -n 50 /var/log/messages
+2026-11-19 13:04:13 | frank | srv-web-01 | 10.0.5.15 | grep error /var/log/app.log
+2026-11-19 13:44:25 | bob | srv-bkp-03 | 10.0.1.11 | whoami
+2026-11-19 13:48:15 | heena | srv-bkp-02 | 10.0.7.17 | df -h
+2026-11-19 14:43:46 | alice | srv-bkp-05 | 10.0.0.10 | rm /var/log/app.log.1
+2026-11-19 14:55:12 | grace | srv-bkp-04 | 10.0.6.16 | cat /etc/hosts
+2026-11-19 15:31:38 | erin | srv-app-02 | 10.0.4.14 | df -h
+2026-11-19 15:38:29 | bob | srv-db-01 | 10.0.1.11 | whoami
+2026-11-19 15:52:46 | heena | srv-app-03 | 10.0.7.17 | top -b -n1
+2026-11-19 15:56:40 | bob | srv-web-03 | 10.0.1.11 | cp /tmp/a.txt /tmp/b.txt
+2026-11-19 16:13:55 | grace | srv-app-01 | 10.0.6.16 | ls -la /var/log
+2026-11-19 16:28:43 | frank | srv-app-01 | 10.0.5.15 | rm /var/log/app.log.1
+2026-11-19 16:49:23 | bob | srv-web-05 | 10.0.1.11 | cd /opt/app
+2026-11-19 16:56:14 | dave | srv-web-03 | 10.0.3.13 | systemctl status nginx
+2026-11-19 16:57:24 | grace | srv-bkp-01 | 10.0.6.16 | pwd
+2026-11-19 17:38:27 | erin | srv-bkp-03 | 10.0.4.14 | rm -rf /tmp/cache
+2026-11-19 17:53:00 | erin | srv-web-04 | 10.0.4.14 | cat /etc/hosts
+2026-11-19 18:12:16 | bob | srv-db-01 | 10.0.1.11 | mkdir /opt/newdir
+2026-11-19 18:35:50 | grace | srv-web-05 | 10.0.6.16 | ls -la /var/log
+2026-11-19 18:36:42 | alice | srv-db-05 | 10.0.0.10 | mkdir /opt/newdir
+2026-11-20 09:07:04 | grace | srv-db-05 | 10.0.6.16 | cp /tmp/a.txt /tmp/b.txt
+2026-11-20 09:22:32 | erin | srv-web-05 | 10.0.4.14 | rm /var/log/app.log.1
+2026-11-20 09:46:50 | dave | srv-bkp-02 | 10.0.3.13 | mkdir /tmp/report
+2026-11-20 10:55:40 | carol | srv-bkp-02 | 10.0.2.12 | mkdir /tmp/report
+2026-11-18 10:15:00 | | srv-web-02 | 10.0.2.12 | pwd
+2026-11-20 11:12:26 | erin | srv-app-01 | 10.0.4.14 | tail -n 50 /var/log/messages
+2026-11-20 11:14:29 | heena | srv-app-04 | 10.0.7.17 | systemctl status nginx
+2026-11-20 11:33:23 | bob | srv-app-04 | 10.0.1.11 | mkdir /tmp/report
+2026-11-20 11:34:18 | grace | srv-web-01 | 10.0.6.16 | cd /opt/app
+####### log rotated #######
+2026-11-20 11:43:28 | alice | srv-web-05 | 10.0.0.10 | top -b -n1
+2026-11-20 11:56:26 | grace | srv-bkp-05 | 10.0.6.16 | systemctl status nginx
+2026-11-20 12:00:04 | dave | srv-app-03 | 10.0.3.13 | ls -la /var/log
+2026-11-20 12:05:15 | alice | srv-bkp-03 | 10.0.0.10 | systemctl status nginx
+2026-11-20 12:10:29 | carol | srv-bkp-03 | 10.0.2.12 | mkdir /tmp/report
+2026-11-20 12:37:38 | bob | srv-web-04 | 10.0.1.11 | rm -rf /tmp/cache
+2026-11-20 12:41:04 | frank | srv-app-05 | 10.0.5.15 | systemctl status nginx
+2026-11-20 12:45:19 | dave | srv-web-02 | 10.0.3.13 | mkdir /tmp/report
+2026-11-20 12:45:21 | erin | srv-bkp-02 | 10.0.4.14 | mv /opt/app/conf.bak /tmp/
+2026-11-20 12:45:41 | alice | srv-app-03 | 10.0.0.10 | tail -n 50 /var/log/messages
+2026-11-20 12:52:55 | dave | srv-bkp-05 | 10.0.3.13 | kill 4521
+2026-11-20 13:01:11 | alice | srv-web-01 | 10.0.0.10 | df -h
+
+2026-11-20 13:22:06 | erin | srv-db-05 | 10.0.4.14 | cat /etc/hosts
+2026-11-20 13:43:48 | dave | srv-db-05 | 10.0.3.13 | mkdir /tmp/report
+2026-11-20 13:51:55 | heena | srv-web-04 | 10.0.7.17 | kill 4521
+2026-11-20 14:15:24 | grace | srv-app-03 | 10.0.6.16 | top -b -n1
+2026-11-20 14:36:18 | grace | srv-db-01 | 10.0.6.16 | df -h
+2026-11-20 15:02:01 | bob | srv-bkp-02 | 10.0.1.11 | kill -9 8832
+2026-11-20 15:22:46 | bob | srv-bkp-05 | 10.0.1.11 | tail -n 50 /var/log/messages
+2026-11-20 15:23:14 | grace | srv-bkp-02 | 10.0.6.16 | pwd
+2026-11-20 16:07:15 | heena | srv-db-01 | 10.0.7.17 | cp /etc/passwd /tmp/passwd.bak
+2026-11-20 16:32:58 | alice | srv-db-02 | 10.0.0.10 | pwd
+2026-11-20 17:00:42 | erin | srv-db-04 | 10.0.4.14 | df -h
+2026-11-20 17:12:57 | bob | srv-db-05 | 10.0.1.11 | top -b -n1
+2026-11-20 17:22:27 | heena | srv-web-01 | 10.0.7.17 | whoami
+2026-11-17 11:05:22 | alice | srv-db-01
+2026-11-20 17:27:53 | heena | srv-app-01 | 10.0.7.17 | systemctl status nginx
+2026-11-20 17:47:56 | dave | srv-app-04 | 10.0.3.13 | rm -rf /tmp/cache
+2026-13-45 99:99:99 | erin | srv-db-03 | 10.0.4.14 | ls
+2026-11-20 17:58:17 | frank | srv-bkp-01 | 10.0.5.15 | df -h
+2026-11-20 18:06:04 | heena | srv-app-04 | 10.0.7.17 | whoami
+2026-11-20 23:58:30 | frank | srv-web-01 | 192.168.77.9 | cp /etc/shadow /tmp/s
+2026-11-21 09:04:42 | erin | srv-bkp-02 | 10.0.4.14 | top -b -n1
+2026-11-21 09:05:47 | carol | srv-web-04 | 10.0.2.12 | tail -n 50 /var/log/messages
+2026-11-21 09:19:50 | bob | srv-web-02 | 10.0.1.11 | grep error /var/log/app.log
+2026-11-21 10:02:42 | dave | srv-db-03 | 10.0.3.13 | mv /opt/app/conf.bak /tmp/
+2026-11-21 10:03:25 | alice | srv-app-03 | 10.0.0.10 | cd /opt/app
+2026-11-21 10:20:27 | grace | srv-web-02 | 10.0.6.16 | df -h
+2026-11-21 10:26:22 | frank | srv-db-02 | 10.0.5.15 | tail -n 50 /var/log/messages
+2026-11-21 11:18:27 | dave | srv-app-03 | 10.0.3.13 | cp /etc/passwd /tmp/passwd.bak
+2026-11-21 11:31:02 | grace | srv-db-04 | 10.0.6.16 | cp /etc/passwd /tmp/passwd.bak
+2026-11-21 11:45:13 | grace | srv-web-01 | 10.0.6.16 | mkdir /opt/newdir
+2026-11-21 11:51:08 | heena | srv-db-02 | 10.0.7.17 | rm /var/log/app.log.1
+2026-11-21 11:53:29 | grace | srv-bkp-03 | 10.0.6.16 | grep error /var/log/app.log
+2026-11-21 11:58:17 | dave | srv-db-02 | 10.0.3.13 | cd /opt/app
+2026-11-21 12:04:37 | grace | srv-app-03 | 10.0.6.16 | mkdir /tmp/report
+2026-11-21 12:16:42 | dave | srv-app-01 | 10.0.3.13 | kill -9 8832
+2026-11-21 12:17:28 | heena | srv-app-03 | 10.0.7.17 | mv /opt/app/conf.bak /tmp/
+2026-11-21 12:25:21 | alice | srv-app-04 | 10.0.0.10 | cd /opt/app
+2026-11-21 13:29:20 | carol | srv-db-01 | 10.0.2.12 | cd /opt/app
+2026-11-21 13:32:19 | bob | srv-web-03 | 10.0.1.11 | top -b -n1
+2026-11-21 13:54:43 | bob | srv-bkp-04 | 10.0.1.11 | cd /opt/app
+2026-11-21 13:57:01 | carol | srv-app-05 | 10.0.2.12 | rm /tmp/old.log
+2026-11-21 14:50:59 | carol | srv-app-03 | 10.0.2.12 | mkdir /tmp/report
+2026-11-21 14:51:07 | erin | srv-db-05 | 10.0.4.14 | cd /opt/app
+2026-11-21 14:51:08 | bob | srv-bkp-03 | 10.0.1.11 | grep error /var/log/app.log
+2026-11-21 14:53:49 | dave | srv-db-02 | 10.0.3.13 | cat /etc/hosts
+2026-11-21 14:56:49 | alice | srv-web-03 | 10.0.0.10 | grep error /var/log/app.log
+2026-11-21 15:00:00 | dave | srv-db-01 | 10.0.3.13 | rm /tmp/old.log
+2026-11-21 15:02:00 | dave | srv-db-02 | 10.0.3.13 | rm /tmp/old.log
+2026-11-21 15:04:00 | dave | srv-db-03 | 10.0.3.13 | rm /tmp/old.log
+2026-11-21 15:06:00 | dave | srv-db-04 | 10.0.3.13 | rm /tmp/old.log
+2026-11-21 15:08:00 | dave | srv-db-05 | 10.0.3.13 | rm /tmp/old.log
+2026-11-21 15:10:00 | dave | srv-app-01 | 10.0.3.13 | rm /tmp/old.log
+2026-11-21 15:11:08 | heena | srv-app-03 | 10.0.7.17 | cp /tmp/a.txt /tmp/b.txt
+2026-11-21 15:12:00 | dave | srv-app-02 | 10.0.3.13 | rm /tmp/old.log
+2026-11-21 15:14:00 | dave | srv-app-03 | 10.0.3.13 | rm /tmp/old.log
+2026-11-21 15:16:00 | dave | srv-app-04 | 10.0.3.13 | rm /tmp/old.log
+2026-11-21 15:18:00 | dave | srv-app-05 | 10.0.3.13 | rm /tmp/old.log
+2026-11-21 15:20:00 | dave | srv-web-01 | 10.0.3.13 | rm /tmp/old.log
+2026-11-21 15:22:00 | dave | srv-web-02 | 10.0.3.13 | rm /tmp/old.log
+2026-11-21 15:24:00 | dave | srv-web-03 | 10.0.3.13 | rm /tmp/old.log
+2026-11-21 15:26:00 | dave | srv-web-04 | 10.0.3.13 | rm /tmp/old.log
+2026-11-21 15:28:00 | dave | srv-web-05 | 10.0.3.13 | rm /tmp/old.log
+2026-11-21 16:04:05 | carol | srv-web-04 | 10.0.2.12 | cd /opt/app
+2026-11-21 16:04:57 | heena | srv-db-03 | 10.0.7.17 | kill 4521
+2026-11-21 16:07:01 | heena | srv-app-03 | 10.0.7.17 | grep error /var/log/app.log
+2026-11-21 16:17:19 | frank | srv-app-02 | 10.0.5.15 | cd /opt/app
+2026-11-21 16:18:42 | grace | srv-db-02 | 10.0.6.16 | whoami
+2026-11-21 16:25:56 | dave | srv-db-05 | 10.0.3.13 | systemctl status nginx
+2026-11-21 16:28:33 | dave | srv-web-02 | 10.0.3.13 | pwd
+2026-11-21 16:41:45 | dave | srv-db-03 | 10.0.3.13 | ls -la /var/log
+2026-11-21 16:48:03 | heena | srv-app-05 | 10.0.7.17 | kill 4521
+2026-11-21 17:05:41 | carol | srv-web-02 | 10.0.2.12 | whoami
+2026-11-21 17:25:43 | frank | srv-web-01 | 10.0.5.15 | whoami
+2026-11-21 17:29:26 | alice | srv-bkp-05 | 10.0.0.10 | cp /etc/passwd /tmp/passwd.bak
+2026-11-21 17:42:45 | grace | srv-app-05 | 10.0.6.16 | cat /etc/hosts
+2026-11-21 17:48:17 | bob | srv-db-04 | 10.0.1.11 | top -b -n1
+2026-11-21 17:53:00 | alice | srv-app-01 | 10.0.0.10 | cat /etc/hosts
+2026-11-21 18:28:29 | frank | srv-bkp-02 | 10.0.5.15 | tail -n 50 /var/log/messages
+2026-11-21 18:36:30 | carol | srv-web-04 | 10.0.2.12 | rm /var/log/app.log.1
+2026-11-21 18:48:33 | erin | srv-app-02 | 10.0.4.14 | cd /opt/app
+2026-11-22 09:36:18 | bob | srv-web-01 | 10.0.1.11 | systemctl status nginx
+2026-11-22 09:48:01 | bob | srv-db-01 | 10.0.1.11 | cat /etc/hosts
+2026-11-22 09:55:41 | frank | srv-web-02 | 10.0.5.15 | cd /opt/app
+2026-11-22 10:24:17 | dave | srv-app-01 | 10.0.3.13 | top -b -n1
+2026-11-22 10:28:51 | dave | srv-db-04 | 10.0.3.13 | whoami
+2026-11-22 11:04:38 | bob | srv-web-03 | 10.0.1.11 | kill -9 8832
+2026-11-22 11:17:28 | bob | srv-web-04 | 10.0.1.11 | pwd
+2026-11-22 11:28:34 | heena | srv-bkp-03 | 10.0.7.17 | top -b -n1
+2026-11-22 11:48:16 | dave | srv-db-01 | 10.0.3.13 | cd /opt/app
+2026-11-22 11:51:51 | dave | srv-db-01 | 10.0.3.13 | mkdir /opt/newdir
+2026-11-22 13:12:24 | heena | srv-app-03 | 10.0.7.17 | cd /opt/app
+2026-11-22 13:36:02 | alice | srv-bkp-01 | 10.0.0.10 | pwd
+2026-11-22 13:38:47 | carol | srv-web-05 | 10.0.2.12 | df -h
+2026-11-22 13:47:21 | grace | srv-db-03 | 10.0.6.16 | kill 4521
+2026-11-22 13:49:51 | heena | srv-app-03 | 10.0.7.17 | cp /etc/passwd /tmp/passwd.bak
+2026-11-22 14:06:43 | grace | srv-bkp-05 | 10.0.6.16 | rm /tmp/old.log
+2026-11-22 14:09:28 | frank | srv-app-05 | 10.0.5.15 | rm /var/log/app.log.1
+2026-11-22 14:10:38 | erin | srv-db-04 | 10.0.4.14 | cp /tmp/a.txt /tmp/b.txt
+2026-11-22 14:35:59 | heena | srv-app-05 | 10.0.7.17 | rm -rf /tmp/cache
+2026-11-22 14:36:27 | bob | srv-web-04 | 10.0.1.11 | cp /tmp/a.txt /tmp/b.txt
+2026-11-22 14:37:35 | alice | srv-db-02 | 10.0.0.10 | kill 4521
+2026-11-22 14:45:05 | bob | srv-db-02 | 10.0.1.11 | pwd
+2026-11-22 14:54:43 | bob | srv-web-01 | 10.0.1.11 | tail -n 50 /var/log/messages
+2026-11-22 15:17:48 | frank | srv-app-04 | 10.0.5.15 | tail -n 50 /var/log/messages
+2026-11-22 15:52:31 | alice | srv-web-05 | 10.0.0.10 | cp /etc/passwd /tmp/passwd.bak
+2026-11-22 15:54:35 | dave | srv-bkp-05 | 10.0.3.13 | grep error /var/log/app.log
+2026-11-22 15:54:51 | dave | srv-web-03 | 10.0.3.13 | cd /opt/app
+2026-11-22 16:14:34 | erin | srv-app-02 | 10.0.4.14 | rm /var/log/app.log.1
+2026-11-22 16:22:19 | dave | srv-app-03 | 10.0.3.13 | cat /etc/hosts
+2026-11-22 16:29:48 | carol | srv-web-05 | 10.0.2.12 | grep error /var/log/app.log
+2026-11-22 16:30:15 | grace | srv-web-03 | 10.0.6.16 | pwd
+2026-11-22 16:42:33 | carol | srv-web-01 | 10.0.2.12 | grep error /var/log/app.log
+2026-11-22 16:57:18 | alice | srv-db-03 | 10.0.0.10 | pwd
+2026-11-17 | bob | srv-app-02 | 10.0.1.11 | ls
+2026-11-22 17:02:39 | heena | srv-app-03 | 10.0.7.17 | mv /opt/app/conf.bak /tmp/
+2026-11-22 17:24:28 | dave | srv-bkp-04 | 10.0.3.13 | df -h
+2026-11-22 17:30:16 | grace | srv-app-05 | 10.0.6.16 | kill -9 8832
+2026-11-22 17:56:55 | frank | srv-db-05 | 10.0.5.15 | grep error /var/log/app.log
